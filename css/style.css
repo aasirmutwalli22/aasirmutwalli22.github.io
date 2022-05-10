@@ -1,3 +1,17 @@
+/* styles with bootstrap breakpoints */
+@import "./style-default.css";
+/* default : x-small */
+@import "./style-sm.css" screen and (min-width: 576px);
+/* sm   : small */
+@import "./style-md.css" screen and (min-width: 768px);
+/* md   : medium */
+@import "./style-lg.css" screen and (min-width: 992px);
+/* lg   : large */
+@import "./style-xl.css" screen and (min-width: 1200px);
+/* xl   : extra large */
+@import "./style-xxl.css" screen and (min-width: 1400px);
+/* xxl  : extra extra large */
+
 html,
 body {
     height: 100%;
@@ -6,9 +20,8 @@ body {
 body {
     background: url(../assets/night.jpg);
     background-size: cover;
-    font-family: 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+        'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +33,4 @@ body {
     margin: 0;
 }
 
-h1 {
-    color: white;
-    font-size: 80px;
-}
+.center {}
