@@ -1,16 +1,11 @@
 /* styles with bootstrap breakpoints */
+
 @import "./style-default.css";
-/* default : x-small */
 @import "./style-sm.css" screen and (min-width: 576px);
-/* sm   : small */
 @import "./style-md.css" screen and (min-width: 768px);
-/* md   : medium */
 @import "./style-lg.css" screen and (min-width: 992px);
-/* lg   : large */
 @import "./style-xl.css" screen and (min-width: 1200px);
-/* xl   : extra large */
 @import "./style-xxl.css" screen and (min-width: 1400px);
-/* xxl  : extra extra large */
 
 html,
 body {
@@ -32,5 +27,3 @@ body {
     padding: 0;
     margin: 0;
 }
-
-.center {}
