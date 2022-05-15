@@ -1,0 +1,56 @@
+:root{
+    --Indigo: var(--Indigo500);
+    --Indigo50: #E8EAF6;
+    --Indigo100:#C5CAE9;
+    --Indigo200:#9FA8DA;
+    --Indigo300:#7986CB;
+    --Indigo400:#5C6BC0;
+    --Indigo500:#3F51B5;
+    --Indigo600:#3949AB;
+    --Indigo700:#303F9F;
+    --Indigo800:#283593;
+    --Indigo900:#1A237E;
+    
+    --Indigo: var(--Indigo500)
+    --Red50: #FFEBEE;
+    --Red100: #FFCDD2;
+    --Red200: #EF9A9A;
+    --Red300: #E57373;
+    --Red400: #EF5350;
+    --Red500: #F44336;
+    --Red600: #E53935;
+    --Red700: #D32F2F;
+    --Red800: #C62828;
+    --Red900: #B71C1C;
+
+    --Grey: var(--Grey500);
+    --Grey50:#FAFAFA;
+    --Grey100:#F5F5F5;
+    --Grey200:#EEEEEE;
+    --Grey300:#E0E0E0;
+    --Grey400:#BDBDBD;
+    --Grey500:#9E9E9E;
+    --Grey600:#757575;
+    --Grey700:#616161;
+    --Grey800:#424242;
+    --Grey90:#212121;
+
+    --Primary50: var(--Indigo50);
+    --Primary100: var(--Indigo100);
+    --Primary200: var(--Indigo200);
+    --Primary300: var(--Indigo300);
+    --Primary400: var(--Indigo400);
+    --Primary500: var(--Indigo500);
+    --Primary600: var(--Indigo600);
+    --Primary700: var(--Indigo700);
+    --Primary800: var(--Indigo800);
+    --Primary900: var(--Indigo900);
+
+    --PrimaryLight: var(--Indigo300);
+    --Primary: var(--Indigo500);
+    --PrimaryDark: var(--Indigo700);
+
+    --AccentLight: var(--Red300);
+    --Accent: var(--Red500);
+    --AccentDark: var(--Red700);
+}
